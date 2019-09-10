@@ -20,7 +20,7 @@ module.exports = {
     "jest": true
   },
   "rules": {
-    "camelcase": [1, { "properties": "always" }],
+    "camelcase": [0, { "properties": "always" }],
     "no-debugger": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,

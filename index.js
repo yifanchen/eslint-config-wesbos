@@ -1,3 +1,3 @@
-import eslintrc from './.eslintrc';
+import eslintrc from './.eslintrc'
 
-export default eslintrc;
+export default eslintrc
