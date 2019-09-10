@@ -20,6 +20,7 @@ module.exports = {
     "jest": true
   },
   "rules": {
+    "camelcase": [1, { "properties": "always" }],
     "no-debugger": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
@@ -64,7 +65,7 @@ module.exports = {
     ],
     "no-console": 0,
     "import/prefer-default-export": 0,
-    "import": 0,
+    "import": 1,
     "func-names": 0,
     "space-before-function-paren": 0,
     "comma-dangle": 0,
@@ -118,6 +119,7 @@ module.exports = {
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 80,
+        "semi": false,
       }
     ],
     "jsx-a11y/href-no-hash": "off",
