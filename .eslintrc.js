@@ -63,6 +63,11 @@ module.exports = {
         "props": false
       }
     ],
+    // turned off for now
+    "react/propt-types": 0,
+    "react/destructuring-assignment": 0,
+    "import/order": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
     "no-console": 0,
     "import/prefer-default-export": 0,
     "import": 1,
@@ -73,7 +78,7 @@ module.exports = {
     "import/extensions": 0,
     "no-underscore-dangle": 0,
     "consistent-return": 0,
-    "react/display-name": 1,
+    "react/display-name": 0,
     "react/no-array-index-key": 0,
     "react/react-in-jsx-scope": 0,
     "react/prefer-stateless-function": 0,
