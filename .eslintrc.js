@@ -20,7 +20,7 @@ module.exports = {
     "jest": true
   },
   "rules": {
-    "camelcase": [0, { "properties": "always" }],
+    "camelcase": [2, { "properties": "always" }],
     "no-debugger": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
@@ -64,14 +64,14 @@ module.exports = {
       }
     ],
     // turned off for now
-    "react/propt-types": 0,
-    "react/destructuring-assignment": 0,
-    "import/order": 0,
-    "jsx-a11y/click-events-have-key-events": 0,
-    "jsx-a11y/no-static-element-interactions": 0,
-    "prefer-destructuring": 0,
-    "no-param-reassign": 0,
-    "no-console": 0,
+    "react/propt-types": 1,
+    "react/destructuring-assignment": 1,
+    "import/order": 1,
+    "jsx-a11y/click-events-have-key-events": 1,
+    "jsx-a11y/no-static-element-interactions": 1,
+    "prefer-destructuring": 1,
+    "no-param-reassign": 1,
+    "no-console": 1,
     "import/prefer-default-export": 0,
     "import": 1,
     "func-names": 0,
